@@ -1,4 +1,4 @@
-## Venkata Surendra Reddy G — AI Engineer
+## Venkata Surendra Reddy G  - AI Engineer
 
 **LLMs · RAG · Agentic Systems · FinTech / RegTech**
 
