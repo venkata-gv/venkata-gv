@@ -5,7 +5,8 @@
 > Building AI that actually ships — explainable, audit-ready, and hallucination-resistant.
 
 I specialize in **production LLM and agentic systems** for regulated industries where the cost of a wrong answer
-is a compliance failure, not just a bad UX. 5+ years taking AI from notebook to production: hybrid RAG pipelines,
+is a compliance failure, not just a bad UX.
+5+ years taking AI from notebook to production: hybrid RAG pipelines,
 multi-agent workflows, and MCP-based data governance layers that compliance teams can actually trust.
 
 **Current:** AI & Data Science Fellow @ CHiEAC, Chicago &nbsp;·&nbsp; **MS Business Analytics**, DePaul University '25
