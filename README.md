@@ -6,7 +6,7 @@ privacy enforced in the system rather than in a prompt.
 
 ## Featured project
 
-**[traveler-data-access-demo](https://github.com/surendra-gvsr/traveler-data-access-demo)**:
+**[traveler-data-access-demo](https://github.com/venkata-gv/traveler-data-access-demo)**:
 governed, AI-safe access to customer data. An MCP server whose single read path enforces
 consent, strips personal data, attaches provenance and audits every call, on top of an
 incremental pipeline that handles duplicate, late and out-of-order events. Built spec-first
@@ -16,11 +16,11 @@ with Claude Code. 99 tests.
 
 | Project | What it does | |
 |---|---|---|
-| **[dora-mifid-compliance](https://github.com/surendra-gvsr/dora-mifid-compliance)** | Agentic RAG mapping ICT controls to DORA and MiFID II — ReAct loop, MCP tools, semantic PII kill-switch, SHA-256 forensic snapshots | [live](https://dora-mifid-compliance.vercel.app) |
-| **[evidenceiq](https://github.com/surendra-gvsr/evidenceiq)** | Multi-agent claims-evidence platform for insurance adjusters, with Playwright end-to-end coverage | [live](https://evidenceiq-psi.vercel.app) |
-| **[unified-enterprise-data-port](https://github.com/surendra-gvsr/unified-enterprise-data-port)** | MCP server giving agents a governed port into enterprise data — contextual PII fencing, data-movement audit ledger | |
-| **[sarops-agent](https://github.com/surendra-gvsr/sarops-agent)** | Agentic AML investigation workbench: transaction-graph reasoning, typology detection, human-in-the-loop review | |
-| **[sec-analyzer](https://github.com/surendra-gvsr/sec-analyzer)** | Multi-year SEC 10-K trend analyzer — FastAPI GraphRAG backend, Next.js frontend | |
+| **[dora-mifid-compliance](https://github.com/venkata-gv/dora-mifid-compliance)** | Agentic RAG mapping ICT controls to DORA and MiFID II — ReAct loop, MCP tools, semantic PII kill-switch, SHA-256 forensic snapshots | [live](https://dora-mifid-compliance.vercel.app) |
+| **[evidenceiq](https://github.com/venkata-gv/evidenceiq)** | Multi-agent claims-evidence platform for insurance adjusters, with Playwright end-to-end coverage | [live](https://evidenceiq-psi.vercel.app) |
+| **[unified-enterprise-data-port](https://github.com/venkata-gv/unified-enterprise-data-port)** | MCP server giving agents a governed port into enterprise data — contextual PII fencing, data-movement audit ledger | |
+| **[sarops-agent](https://github.com/venkata-gv/sarops-agent)** | Agentic AML investigation workbench: transaction-graph reasoning, typology detection, human-in-the-loop review | |
+| **[sec-analyzer](https://github.com/venkata-gv/sec-analyzer)** | Multi-year SEC 10-K trend analyzer — FastAPI GraphRAG backend, Next.js frontend | |
 
 ## Experience
 
