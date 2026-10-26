@@ -1,61 +1,44 @@
-## Venkata Surendra Reddy G  - AI Engineer
+# Venkata G
 
-**LLMs · RAG · Agentic Systems · FinTech / RegTech**
+AI and data engineer. I build data products and the AI systems that use them, with a focus
+on making data trustworthy for AI: typed and governed access, provenance, evaluation, and
+privacy enforced in the system rather than in a prompt.
 
-> Building AI that actually ships — explainable, audit-ready, and hallucination-resistant.
+## Featured project
 
-I specialize in **production LLM and agentic systems** for regulated industries where the cost of a wrong answer
-is a compliance failure, not just a bad UX.
-5+ years taking AI from notebook to production: hybrid RAG pipelines,
-multi-agent workflows, and MCP-based data governance layers that compliance teams can actually trust.
+**[traveler-data-access-demo](https://github.com/surendra-gvsr/traveler-data-access-demo)**:
+governed, AI-safe access to customer data. An MCP server whose single read path enforces
+consent, strips personal data, attaches provenance and audits every call, on top of an
+incremental pipeline that handles duplicate, late and out-of-order events. Built spec-first
+with Claude Code. 99 tests.
 
-**Current:** AI & Data Science Fellow @ CHiEAC, Chicago &nbsp;·&nbsp; **MS Business Analytics**, DePaul University '25
+## Also shipped
 
----
-
-### Featured Projects
-
-| Project | What it does | Stack |
+| Project | What it does | |
 |---|---|---|
-| [**FilingsIQ**](https://filingsiq.vercel.app) | Structure-aware RAG for SEC 10-K filings — **+40pp** over naive vector RAG | FastAPI · LlamaIndex · Pinecone · HyDE · Groq · Next.js |
-| [**SAROps Agent**](https://github.com/surendra-gvsr/sarops-agent) | 7-step agentic AML workbench: Triage → Entity Resolution → SAR Draft → Human Review | Python · FastAPI · Neo4j · LangGraph |
-| [**DORA/MiFID II Compliance-as-Code**](https://dora-mifid-compliance.vercel.app) | ReAct-agent RAG mapping ICT controls to EU financial regulations with PII kill-switch & SHA-256 forensic audit trails | FastAPI · Gemini · PyJWT |
-| [**EvidenceIQ**](https://evidenceiq-psi.vercel.app/) | Multi-agent claims evidence platform for insurance adjusters — Orchestrator → backend + frontend agents → Playwright E2E | Next.js 15 · TypeScript · Anthropic Claude API |
-| [**Unified Enterprise Data Port**](https://github.com/surendra-gvsr/unified-enterprise-data-port) | Governed MCP server with HMAC-based PII fencing and a full data-movement audit ledger | Python · MCP SDK · Docker |
-| [**Shipflix**](https://github.com/surendra-gvsr/shipflix) | Netflix-style AI portfolio — 6 shipped GenAI projects across 4 persona lenses | Next.js 16 · React 19 · Framer Motion |
+| **[dora-mifid-compliance](https://github.com/surendra-gvsr/dora-mifid-compliance)** | Agentic RAG mapping ICT controls to DORA and MiFID II — ReAct loop, MCP tools, semantic PII kill-switch, SHA-256 forensic snapshots | [live](https://dora-mifid-compliance.vercel.app) |
+| **[evidenceiq](https://github.com/surendra-gvsr/evidenceiq)** | Multi-agent claims-evidence platform for insurance adjusters, with Playwright end-to-end coverage | [live](https://evidenceiq-psi.vercel.app) |
+| **[unified-enterprise-data-port](https://github.com/surendra-gvsr/unified-enterprise-data-port)** | MCP server giving agents a governed port into enterprise data — contextual PII fencing, data-movement audit ledger | |
+| **[sarops-agent](https://github.com/surendra-gvsr/sarops-agent)** | Agentic AML investigation workbench: transaction-graph reasoning, typology detection, human-in-the-loop review | |
+| **[sec-analyzer](https://github.com/surendra-gvsr/sec-analyzer)** | Multi-year SEC 10-K trend analyzer — FastAPI GraphRAG backend, Next.js frontend | |
 
----
+## Experience
 
-### Tech Stack
+- **AI Engineer (Contract), Meta** — Jun 2025 – present
+  Internal AI agent that helps engineers investigate production regressions: typed
+  tool-execution layer (Scala), incremental retrieval pipeline (Kafka, Spark),
+  guardrails and golden-set evaluation.
+- **Machine Learning Engineer Intern / Co-op, UnitedHealthcare** — Jun 2024 – May 2025
+  Claims-review prioritization: point-in-time feature pipelines on Spark and Iceberg,
+  batch scoring, explainability and monitoring over de-identified healthcare data.
+- **Data Scientist, Birlasoft** — Jan 2020 – Aug 2023
+  Predictive models and Spark/Databricks pipelines for enterprise clients.
 
-**LLMs & AI**
-`OpenAI` `Anthropic Claude` `Hugging Face` `LangChain` `LangGraph` `LlamaIndex` `MCP`
+## Education
 
-**Retrieval & Search**
-`Hybrid RAG` `HyDE` `BM25 + Vector` `Reciprocal Rank Fusion` `Pinecone` `ElasticSearch` `flashrank`
+MS Business Analytics, DePaul University (2025)
 
-**Backend**
-`Python` `FastAPI` `Pydantic` `PostgreSQL` `Neo4j` `MongoDB` `Kafka` `Snowflake`
+## Tools
 
-**Frontend**
-`Next.js` `TypeScript` `React` `Tailwind`
-
-**Cloud & MLOps**
-`AWS (S3 · Lambda · Airflow)` `Docker` `GitHub Actions` `MLflow` `Jenkins`
-
-**Domain**
-`AML / Anti-Money Laundering` `RegTech` `DORA / MiFID II` `PII Governance` `Audit Trails` `Financial Risk Analytics`
-
----
-
-### What I'm focused on
-
-I build AI for **regulated finance** — where explainability isn't a nice-to-have, it's a compliance requirement.
-My systems ship with SHAP-based model explanations, SHA-256 forensic audit logs, role-based PII access controls,
-and hard human-in-the-loop review gates that auditors trust.
-
-If you're building something that can't afford hallucinations, let's talk.
-
----
-
-📫 gvsr32@gmail.com
+Java · Scala · Python · SQL · Spark · Kafka · Flink · Iceberg · Cassandra/Scylla ·
+PostgreSQL · LLMs · RAG · MCP · LangGraph · Docker · Kubernetes · AWS
