@@ -1,15 +1,15 @@
 # Venkata G
 
-Engineer who builds **agentic systems and the context architecture behind them** — MCP servers,
+Engineer who builds **agentic systems and the context architecture behind them**  MCP servers,
 governed retrieval, and the product surfaces people actually use. My recurring theme: deciding the
 right *shape* for an AI solution (MCP server vs. agent vs. plugin vs. platform) and then shipping it
-with tests, guardrails, and observability — not a demo that falls over.
+with tests, guardrails, and observability  not a demo that falls over.
 
 ## Agentic & context systems
 
 | Project | What it proves | |
 |---|---|---|
-| **[traveler-data-access-demo](https://github.com/venkata-gv/traveler-data-access-demo)** | How content reaches an AI agent safely: one governed read path enforcing consent, PII removal, provenance, and audit — an MCP server over an incremental pipeline that survives duplicate/late/out-of-order events. Spec-first with Claude Code, 99 tests, CI. | |
+| **[traveler-data-access-demo](https://github.com/venkata-gv/traveler-data-access-demo)** | How content reaches an AI agent safely: one governed read path enforcing consent, PII removal, provenance, and audit  an MCP server over an incremental pipeline that survives duplicate/late/out-of-order events. Spec-first with Claude Code, 99 tests, CI. | |
 | **[sec-analyzer](https://github.com/venkata-gv/sec-analyzer)** | Context architecture matters: structure-aware retrieval beats naive vector RAG on financial tables — benchmarked (+40pp table-retrieval accuracy, +28pp answer correctness), with token-conscious chunking and reranking. | [live](https://filingsiq.vercel.app) |
 | **[unified-enterprise-data-port](https://github.com/venkata-gv/unified-enterprise-data-port)** | Policy enforced once, at the transport boundary: an MCP server giving agents a governed port into enterprise data — contextual PII fencing + a data-movement audit ledger. | |
 | **[dora-mifid-compliance](https://github.com/venkata-gv/dora-mifid-compliance)** | A full agent in a regulated domain: ReAct loop over an MCP tool registry, semantic PII kill-switch, SHA-256 forensic snapshots. | [live](https://dora-mifid-compliance.vercel.app) |
