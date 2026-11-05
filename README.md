@@ -1,26 +1,34 @@
 # Venkata G
 
-AI and data engineer. I build data products and the AI systems that use them, with a focus
-on making data trustworthy for AI: typed and governed access, provenance, evaluation, and
-privacy enforced in the system rather than in a prompt.
+Engineer who builds **agentic systems and the context architecture behind them** — MCP servers,
+governed retrieval, and the product surfaces people actually use. My recurring theme: deciding the
+right *shape* for an AI solution (MCP server vs. agent vs. plugin vs. platform) and then shipping it
+with tests, guardrails, and observability — not a demo that falls over.
 
-## Featured project
+## Agentic & context systems
 
-**[traveler-data-access-demo](https://github.com/venkata-gv/traveler-data-access-demo)**:
-governed, AI-safe access to customer data. An MCP server whose single read path enforces
-consent, strips personal data, attaches provenance and audits every call, on top of an
-incremental pipeline that handles duplicate, late and out-of-order events. Built spec-first
-with Claude Code. 99 tests.
+| Project | What it proves | |
+|---|---|---|
+| **[traveler-data-access-demo](https://github.com/venkata-gv/traveler-data-access-demo)** | How content reaches an AI agent safely: one governed read path enforcing consent, PII removal, provenance, and audit — an MCP server over an incremental pipeline that survives duplicate/late/out-of-order events. Spec-first with Claude Code, 99 tests, CI. | |
+| **[sec-analyzer](https://github.com/venkata-gv/sec-analyzer)** | Context architecture matters: structure-aware retrieval beats naive vector RAG on financial tables — benchmarked (+40pp table-retrieval accuracy, +28pp answer correctness), with token-conscious chunking and reranking. | [live](https://filingsiq.vercel.app) |
+| **[unified-enterprise-data-port](https://github.com/venkata-gv/unified-enterprise-data-port)** | Policy enforced once, at the transport boundary: an MCP server giving agents a governed port into enterprise data — contextual PII fencing + a data-movement audit ledger. | |
+| **[dora-mifid-compliance](https://github.com/venkata-gv/dora-mifid-compliance)** | A full agent in a regulated domain: ReAct loop over an MCP tool registry, semantic PII kill-switch, SHA-256 forensic snapshots. | [live](https://dora-mifid-compliance.vercel.app) |
 
-## Also shipped
+## AI tools that amplify a profession
 
 | Project | What it does | |
 |---|---|---|
-| **[dora-mifid-compliance](https://github.com/venkata-gv/dora-mifid-compliance)** | Agentic RAG mapping ICT controls to DORA and MiFID II — ReAct loop, MCP tools, semantic PII kill-switch, SHA-256 forensic snapshots | [live](https://dora-mifid-compliance.vercel.app) |
-| **[evidenceiq](https://github.com/venkata-gv/evidenceiq)** | Multi-agent claims-evidence platform for insurance adjusters, with Playwright end-to-end coverage | [live](https://evidenceiq-psi.vercel.app) |
-| **[unified-enterprise-data-port](https://github.com/venkata-gv/unified-enterprise-data-port)** | MCP server giving agents a governed port into enterprise data — contextual PII fencing, data-movement audit ledger | |
-| **[sarops-agent](https://github.com/venkata-gv/sarops-agent)** | Agentic AML investigation workbench: transaction-graph reasoning, typology detection, human-in-the-loop review | |
-| **[sec-analyzer](https://github.com/venkata-gv/sec-analyzer)** | Multi-year SEC 10-K trend analyzer — FastAPI GraphRAG backend, Next.js frontend | |
+| **[sarops-agent](https://github.com/venkata-gv/sarops-agent)** | Agentic AML investigation workbench — transaction-graph reasoning, typology detection, source-linked evidence, hard human-in-the-loop review gate. | |
+| **[evidenceiq](https://github.com/venkata-gv/evidenceiq)** | Turns hours of manual claims-evidence assembly into minutes — multi-agent extraction, source-linked timeline, exportable evidence pack. Playwright e2e coverage. | [live](https://evidenceiq-psi.vercel.app) |
+| **[ai-roi-calculator](https://github.com/venkata-gv/ai-roi-calculator)** | AI-vs-headcount cost modeling with an LLM-generated rollout playbook — zod-validated LLM JSON, unit-tested math. | |
+
+## Front-end & design craft
+
+| Project | What it shows | |
+|---|---|---|
+| **[shipflix](https://github.com/venkata-gv/shipflix)** | Netflix-style persona-aware portfolio — Next.js 16 parallel/intercepted routes, Framer Motion shared transitions, reduced-motion support, edge-generated OG images, and a token-economics visualization. | |
+| **[turn-here-nursery](https://github.com/venkata-gv/turn-here-nursery)** | Marketing site + zero-cost ordering system (Google Sheets backend) for a real nursery — no framework, no build step, shipped for a real client. | |
+| **[pure-cleaning-services](https://github.com/venkata-gv/pure-cleaning-services)** | Mobile-first marketing site for a real cleaning business, with a unit-tested vanilla-JS booking flow and an honest README about static-site limits. | |
 
 ## Experience
 
@@ -40,5 +48,5 @@ MS Business Analytics, DePaul University (2025)
 
 ## Tools
 
-Java · Scala · Python · SQL · Spark · Kafka · Flink · Iceberg · Cassandra/Scylla ·
-PostgreSQL · LLMs · RAG · MCP · LangGraph · Docker · Kubernetes · AWS
+TypeScript · React/Next.js · Python · Java · Scala · SQL · LLMs · RAG · **MCP** · LangGraph ·
+Claude Code · Spark · Kafka · Iceberg · PostgreSQL · Docker · Kubernetes · AWS
